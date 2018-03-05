@@ -1,0 +1,61 @@
+body {
+	background: url(../images/bg-scene-mobile2.svg) no-repeat center top scroll;
+	background-size: cover;
+}
+.carousel {
+	background: url(../images/bg-carousel.svg) no-repeat center top scroll;
+	background-size: cover;
+}
+
+
+/* APPLY BG IMAGE FOR WIDE SCREENS HERE */
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767px) {
+	body {
+		background: url(../images/bg-scene-b3.svg) no-repeat center top fixed;
+		background-size: cover;
+	}
+	header {
+		background: url(../images/bg-surface.svg) no-repeat center top scroll;
+		background-size: cover;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	body {
+		background: url(../images/bg-scene-b3.svg) no-repeat center top fixed;
+		background-size: cover;
+	}
+	header {
+		background: url(../images/bg-surface.svg) no-repeat center top scroll;
+		background-size: cover;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	body {
+		background: url(../images/bg-scene-b3.svg) no-repeat center top fixed;
+		background-size: cover;
+	}
+	header {
+		background: url(../images/bg-surface.svg) no-repeat center top scroll;
+		background-size: cover;
+	}
+}
+
+@media only screen and (min-width: 1200px) {
+	body {
+		background: url(../images/bg-scene-b3.svg) no-repeat center top fixed;
+		background-size: cover;
+	}
+	header {
+		background: url(../images/bg-surface.svg) no-repeat center top scroll;
+		background-size: cover;
+	}
+}
+/*for email contact form*/
+.m-y-1 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
